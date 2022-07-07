@@ -1,0 +1,90 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++11
+    compiler.version=12
+    os=Linux
+
+[requires]
+    opencascade_test/0.0.1
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++11
+    compiler.version=12
+    os=Linux
+
+[full_requires]
+    brotli/1.0.9:2a19826344ff00be1c04403f2f8e7008ed3a7cc6
+    bzip2/1.0.8:3cfc45772763dad1237052f26c1fe8b2bae3f7d2
+    expat/2.4.8:a1ba772dbe13186199f7ecf8dde362ba9613ecf7
+    fontconfig/2.13.93:a9116578be8284d841c7fd6ddf7ebe279058069b
+    freetype/2.11.1:081e568bb8bac3eeda85a8634d642a47e3f5c966
+    gtest/1.11.0:8bb4450e34d21c0a04f69e954781f3dc40d95e99
+    libpng/1.6.37:c50ec4bac288fa759d0037cc4023b4bbefd75ad4
+    libuuid/1.0.3:2a19826344ff00be1c04403f2f8e7008ed3a7cc6
+    opencascade/7.6.2:2fcbc78b950e5e852eb57ff7e3f2226eaec63887
+    opencascade_test/0.0.1:e7c6ab04c4359cf2369d4dc0a4233441e4ae8fc1
+    opengl/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    tcl/8.6.11:83180be949a9a085f7e5a5f82373cedd1baf0da6
+    tk/8.6.10:a4034c51cf68700673917e65c425b049ab38bbc4
+    xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    zlib/1.2.12:2a19826344ff00be1c04403f2f8e7008ed3a7cc6
+
+[full_options]
+    brotli:fPIC=True
+    brotli:shared=False
+    bzip2:build_executable=True
+    bzip2:fPIC=True
+    bzip2:shared=False
+    expat:char_type=char
+    expat:fPIC=True
+    expat:shared=False
+    fontconfig:fPIC=True
+    fontconfig:shared=False
+    freetype:fPIC=True
+    freetype:shared=False
+    freetype:subpixel=False
+    freetype:with_brotli=True
+    freetype:with_bzip2=True
+    freetype:with_png=True
+    freetype:with_zlib=True
+    gtest:build_gmock=True
+    gtest:fPIC=True
+    gtest:hide_symbols=False
+    gtest:no_main=False
+    gtest:shared=False
+    libpng:api_prefix=
+    libpng:fPIC=True
+    libpng:shared=False
+    libpng:sse=True
+    libuuid:fPIC=True
+    libuuid:shared=False
+    opencascade:fPIC=True
+    opencascade:shared=False
+    opencascade:with_draco=False
+    opencascade:with_ffmpeg=False
+    opencascade:with_freeimage=False
+    opencascade:with_opengl=True
+    opencascade:with_openvr=False
+    opencascade:with_rapidjson=False
+    opencascade:with_tbb=False
+    opencascade:with_tk=True
+    tcl:fPIC=True
+    tcl:shared=False
+    tk:fPIC=True
+    tk:shared=False
+    zlib:fPIC=True
+    zlib:shared=False
+
+[recipe_hash]
+
+
+[env]
+
